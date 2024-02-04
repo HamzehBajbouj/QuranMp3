@@ -1,0 +1,140 @@
+.site-introduction {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.quran-image {
+  max-width: 650px;
+}
+.quran-image img {
+  max-width: 100%;
+  height: auto;
+}
+.title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--text-primary-color);
+}
+.description-content {
+  max-width: 500px;
+}
+.description-content p {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  text-align: justify;
+  color: var(--text-secondary-color);
+}
+.reciters-page {
+  display: block;
+  background-color: var(--text-primary-color);
+  padding: 15px 80px;
+  margin-top: 50px;
+  max-width: 30%;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--main-background-color);
+  border-radius: 20px;
+}
+
+
+.introduction{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 100px;
+}
+.introduction h1{
+    color: var(--text-primary-color);
+ }
+ .introduction p{
+    font-size: 1.3rem;
+    color: var(--text-secondary-color);
+ }
+ 
+.site-features .features{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.site-features .features .feature{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center; 
+    width: calc(50% - 75px);
+    padding: 0px 30px;
+    margin-bottom: 60px;
+}
+.site-features .features .feature img{
+    max-width: 60px;
+    height: auto;
+    margin-left: 15px;
+}
+.site-features .features .feature div{
+   width: 70%;
+}
+
+
+.site-features .features .feature h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: var(--text-primary-color);
+    font-size: 1.3em;
+}
+
+.site-features .features .feature p{
+    margin-block-start: 0.5em;
+    line-height: 1.4em;
+    text-align: justify;
+    color: var(--text-secondary-color);
+}
+
+.search-reciter .introduction {
+    margin-bottom: 50px;
+
+}
+.search-reciter .introduction p{
+    white-space: pre-line;
+    max-width: 600px; 
+    margin: 0px auto;
+    line-height: 1.4em;
+}
+
+.search-reciter .search-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.search-form input{
+    font-size: 1.2em;
+    padding: 15px;
+    width: 350px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid var(--text-primary-color);
+    margin-left: 30px;
+    caret-color:  var(--text-primary-color);
+    color: var(--text-secondary-color);
+}
+.search-form input::placeholder {
+    color: var(--text-secondary-color);
+  }
+
+  .search-form button{
+    border-radius: 15px;
+    padding: 15px;
+    width: 120px;
+    outline: none;
+    color: var(--main-background-color);
+    font-size: 1.2em;
+    background-color: var(--text-primary-color);
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.header-bar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+.header-bar .hedaer-bar-menu ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.header-bar .hedaer-bar-menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.hedaer-bar-menu a{
+    text-decoration: none;
+    color: var(--text-primary-color);
+    font-size: 1.15rem
+}
+
+.logo img{
+    width: 60px;
+    max-width: 60px;
+    padding: 10px;
+}

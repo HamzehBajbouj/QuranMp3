@@ -1,0 +1,65 @@
+<div class="page-container">
+    <div class="site-introduction">
+        <div class="site-description">
+            <div class="title">
+                مرحبًا بك في Quran Mp3
+            </div>
+            <div class="description-content">
+                <p>
+                    مرحبًا بك في أفضل وجهة على الإنترنت لتحميل التلاوات القرآنية بصيغة MP3! موقعنا يفتخر بتوفير مجموعة هائلة من التلاوات لمئات القراء المشهورين. سواء كنت تبحث عن تلاوات هادئة ومؤثرة أو ترغب في استماع إلى جمال القرآن من خلال أصوات مميزة، فإننا نقدم لك تجربة فريدة.
+                </p>
+            </div>
+            <a class="reciters-page" routerLink="/reciters" >تصفح قائمة القراء</a>
+            
+        </div>
+        <div class="quran-image">
+            <img  [src]="'assets/images/quran.png'" alt="">
+        </div>
+    </div>
+   <div class="site-features">
+    <div class="introduction">
+        <h1>لصنع تجربة إستثنائية</h1>
+        <p>استعد لتجربة استماع قرآنية فريدة مع موقعنا الذي يُقدم باقة من الميزات المتميزة</p>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img [src]="'assets/icons/feature_icon_1.png'" alt="">
+            <div>
+                <h3 class="title">تنوع القراءات</h3>
+                <p class="description">استمتع بتجربة فريدة مع مجموعة واسعة من التلاوات بالقراءات العشر للقرآن الكريم. اكتشف جمال القراءات العشر بتنوع القراء. تأمل في جمال كل قراءة واستمع إلى القرآن بمختلف القراءات التي تلامس قلبك.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img [src]="'assets/icons/feature_icon_2.png'" alt="">
+            <div>
+                <h3 class="title">مجموعة واسعة من القراء</h3>
+                <p class="description">استمع إلى مئات القراء البارعين من جميع أنحاء العالم على موقعنا، حيث نقدم للمستمعين فرصة الإستماع إلى تلاوات القرآن الكريم من مئات القراء المتميزين من مختلف أنحاء العالم، حيث يمكن للمستمعين اختيار القارئ الذي يلامس قلوبهم بأدائه الفريد.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img [src]="'assets/icons/feature_icon_3.png'" alt="">
+            <div>
+                <h3 class="title">تعرف على القارئ</h3>
+                <p class="description">إستمتع بتجربة فريدة من خلال الحصول على معلومات شاملة حول كل قارئ على موقعنا. يمكن للمستخدمين استكشاف السيرة الذاتية والخلفية الدينية لكل قارئ عند إختاريهم للقارئ.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img [src]="'assets/icons/feature_icon_4.png'" alt="">
+            <div>
+                <h3 class="title">البحث عن قارئك المفضل</h3>
+                <p class="description">إستكشف تلاوات قرّائك المفضلين باستخدام ميزة البحث المتقدمة، حيث يمكنك العثور على التلاوات بواسطة البحث عن اسم قارئك المفضل.</p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="search-reciter">
+    <div class="introduction">
+        <h1>إبحث عن قارئك المفضل</h1>
+        <p>إستكشف تلاوات قرّائك المفضلين باستخدام ميزة البحث المتقدمة، حيث يمكنك العثور على التلاوات بواسطة البحث عن اسم قارئك المفضل.</p>
+    </div>
+    <div class="search-form">
+        <input #queryInput placeholder="إبحث عن اسم قارئ" />
+        <button (click)="searchReciter(queryInput.value)">بحث</button>
+      </div>
+   </div>
+</div>

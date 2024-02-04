@@ -1,0 +1,18 @@
+.footer{
+    /* position: absolute;
+    bottom: 0px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--text-primary-color);
+    padding: 10px;
+    text-align: center;
+    color: var( --main-background-color);
+    font-size: 1.1rem;
+}
+.footer span{
+    font-weight: 700;
+}
+.footer a{
+    color: var( --main-background-color);
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+:host{
+    font-family:'IBM Plex Sans Arabic', sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* opacity: 5; */
+}
+
+:host{
+    
+        --text-primary-color: #917C51;
+        --text-secondary-color: #938B7A;
+        --text-successful-color:#51915B;
+        --text-wanring-color:#D75C5C;
+        --main-background-color:#FCFCFC;
+    
+}
